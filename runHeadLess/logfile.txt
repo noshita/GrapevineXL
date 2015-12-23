@@ -51,25 +51,5 @@ Reading file T0675E22.JPG ...
 Done
 File T0675E22.JPG was read.
 100% : V 1.5  |  Application is running.
-Dec 16, 2015 2:41:08 PM de.grogra.imp.IMPWorkbench initialize
+Dec 23, 2015 12:06:48 PM de.grogra.imp.IMPWorkbench initialize
 log.guiinfo: Compilation of pfs:main.rgg, pfs:modules.rgg, pfs:updates.rgg, pfs:initiation.rgg, pfs:photosynthesisAndTranspiration.rgg, pfs:environment.rgg, pfs:globalParameters.rgg, pfs:plantParameters.rgg, pfs:extraTools.rgg, pfs:Charts.rgg, pfs:OutputTables.rgg, pfs:berry.rgg, pfs:modelInput.rgg, pfs:optimizeTranspiration.rgg was successful!
-Dec 16, 2015 2:41:10 PM de.grogra.imp.IMPJobManager run
-WARNING: Unexpected Exception
-java.lang.ArrayIndexOutOfBoundsException: 14
-	at environment.updateEnvironment(pfs:environment.rgg:200)
-	at updates.updates(pfs:updates.rgg:20)
-	at main.run(pfs:main.rgg:54)
-	at main.runEnd(pfs:main.rgg:82)
-	at main.run(pfs:main.rgg:398)
-	at de.grogra.rgg.RGG$RunLater.runImpl(Unknown Source)
-	at de.grogra.pf.ui.util.LockProtectedCommand$1.run(Unknown Source)
-	at de.grogra.pf.ui.UI$1Task.run(Unknown Source)
-	at de.grogra.graph.impl.GraphManager.invokeRun(Unknown Source)
-	at de.grogra.util.LockableImpl.invokeRun0(Unknown Source)
-	at de.grogra.util.LockableImpl.executeImpl(Unknown Source)
-	at de.grogra.util.LockableImpl.execute(Unknown Source)
-	at de.grogra.pf.ui.UI.executeLockedly(Unknown Source)
-	at de.grogra.pf.ui.util.LockProtectedCommand.run(Unknown Source)
-	at de.grogra.imp.IMPJobManager.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-
