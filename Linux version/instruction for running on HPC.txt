@@ -1,0 +1,7 @@
+1. first check whether xming server is running or not;
+2. check forward x11 is enabled
+3. log into the avakas:jzhu code: 
+4. load the groIMP module: module load GroIMP/1.5
+5. see the help function: GroIMP -h
+6. load the modle GroIMP -i /home/jzhu/Linux_version/
+7. do a trial run either on the front head or on the node for 5 minutes

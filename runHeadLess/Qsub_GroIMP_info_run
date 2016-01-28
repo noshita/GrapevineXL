@@ -1,0 +1,9 @@
+User: jzhu
+Date: Thu Jan 14 15:23:15 CET 2016
+Host: node202
+Directory: /home/jzhu/.Qsub_GroIMP.d/2016-01-14.15.22.33
+PBS_JOBID: 4345002.master.cm.cluster
+PBS_O_WORKDIR: /home/jzhu/.Qsub_GroIMP.d/2016-01-14.15.22.33
+PBS_NODEFILE:  node202.cm.cluster
+############################
+############################
