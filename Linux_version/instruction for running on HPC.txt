@@ -5,4 +5,6 @@
 5. see the help function: GroIMP -h
 6. load the modle GroIMP -i /home/jzhu/Linux_version/
 7. do a trial run either on the front head or on the node for 5 minutes
-8. qstat -u jzhu
+8. run a complete job: GroIMP -i /home/jzhu/Linux_version/GrapevineXLWaterFlux.gsz -M 15000m -Q 120:00:00
+9. check the status: qstat -u jzhu
+10. delete the job: qdel jobID only the number
