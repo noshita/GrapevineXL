@@ -1,4 +1,4 @@
-1. first check whether xming server is running or not;
+G1. first check whether xming server is running or not;
 2. check forward x11 is enabled
 3. log into the avakas:jzhu code: 
 4. load the groIMP module: module load GroIMP/1.5
