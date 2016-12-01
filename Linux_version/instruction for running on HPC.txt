@@ -3,8 +3,26 @@ G1. first check whether xming server is running or not;
 3. log into the avakas:jzhu code: 
 4. load the groIMP module: module load GroIMP/1.5
 5. see the help function: GroIMP -h
-6. load the modle GroIMP -i /home/jzhu/Linux_version/
+6. load the modle GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLWaterFlux.gsz
 7. do a trial run either on the front head or on the node for 5 minutes
-8. run a complete job: GroIMP -i /home/jzhu/Linux_version/GrapevineXLWaterFlux.gsz -M 15000m -Q 120:00:00
-9. check the status: qstat -u jzhu
+8. check the output name and table, need to change the output table with only table 3
+8. run a complete job: GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLWaterFlux.gsz -M 15000m -Q 120:00:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLCarbonAllocation.gsz -M 15000m -Q 150:00:00
+9. check the status: qstat -u zdai100p
 10. delete the job: qdel jobID only the number
+11. 
+
+GroIMP -i /home/jzhu/Linux_version/GrapevineXLWaterFluxFullCombination2010-8-3.gsz -M 15000m -Q 50:00:00
+
+GroIMP -i /home/jzhu/Linux_version/GrapevineXLCarbonAllocation_8_31.gsz -M 12000m -Q 150:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLCarbonAllocation_11_11.gsz -M 12000m -Q 150:00:00
+
+
+
+
+Server and user name:
+set the host as : avakas.mcia.univ-bordeaux.fr
+port:22
+zdai100p
+Egfv1287!
