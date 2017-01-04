@@ -26,9 +26,30 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -Q 075:00:0
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocationZhanwu.gsz -M 12000m -Q 120:00:00
 
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocation_Bobeica.gsz -M 12000m -Q 119:59:00
+
 
 Server and user name:
 set the host as : avakas.mcia.univ-bordeaux.fr
 port:22
 zdai100p
 Egfv1287!
+
+Options:
+   -h                   This option take no argument and shows this help
+   -i <file>            This option take one argument and define the input file path. Example : -i /home/user/folder/modelfile.gsz
+   -M                   This option take one argument and set the -Xmx<sizem> for the maximum Java heap size. Example : -M 15000m (for 15 Go RAM)
+   -H                   This option take no argument and run GroIMP Headless on the current Computer.
+   -Q <hh:mm:ss>        This option take one argument in Hours to run on a cluster node. Example : -Q 01:00:00 (for one hour).
+   -q                   This option take no argument and offers 5 minutes to run on a cluster node for tests. Similar to -Q 00:05:00
+   -N                   This option take no argument and set 40 cores to use Bigmem Clusters. Works when -q or -Q hh:mm:ss are sets. Example : -N (for 40 threads). Default N is 12 Threads
+
+Job Limits
+In order to be eligible for execution, jobs must satisfy certain constraints:
+
+Walltime the maximum duration of the job
+Walltime < 120 hours (5 days), the job is directed to the tail group User
+Walltime < 720 hours (30 days), the job is directed to longq
+Walltime < 24 pm (1 day) for the queue firsthand
+* procs hours : this is the total time available for all the job allocated processors (cores nb x runtime)
+* procs walltime < 5760 Hours (corresponds to 5 days or 30 days to 48 cores on 8 cores)
