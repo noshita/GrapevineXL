@@ -26,7 +26,7 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -Q 075:00:0
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocationZhanwu.gsz -M 12000m -Q 120:00:00
 
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocation_Bobeica.gsz -M 12000m -Q 119:59:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocation_Bobeica.gsz -M 12000m -Q 2:59:00
 
 
 Server and user name:
