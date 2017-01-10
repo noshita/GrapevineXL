@@ -18,7 +18,7 @@ GroIMP -i /home/jzhu/Linux_version/GrapevineXLCarbonAllocation_8_31.gsz -M 12000
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLCarbonAllocation_11_11.gsz -M 12000m -Q 150:00:00
 
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocationZhanwu_km_root.gsz -M 12000m -Q 050:00:00
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -q
 
