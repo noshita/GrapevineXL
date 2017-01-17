@@ -1,0 +1,10 @@
+1. check I load the correct scenario file names 
+2. Check the final static String MAINPATH = "/home/zdai100p/grapevineXL/";
+3. check the choose the right method name: public void optimCarbonAllocation() {
+   //protected void run(Object info) {  //linux
+4. check the rayCount= 1000,0000, because sometimes
+5. check the runEnd method has the correct ending steps I need
+6. Check the NumberIter is correct
+7. check the numbers for the array reading is correct
+8. check I suppressed the parameters that I want to optimize
+9. check the output file names, see whether you want to add the dates for it
