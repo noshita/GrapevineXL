@@ -8,3 +8,5 @@
 7. check the numbers for the array reading is correct
 8. check I suppressed the parameters that I want to optimize
 9. check the output file names, see whether you want to add the dates for it
+10. suppress the parameter reading at the start of run
+11. choose whether to include the point after 100 or not
