@@ -26,7 +26,7 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -Q 075:00:0
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocationZhanwu.gsz -M 12000m -Q 120:00:00
 
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Bobeica.gsz -M 12000m -Q 050:00:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Bobeica.gsz -M 12000m -Q 120:00:00
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_canopy_photosynthesis_optimize_12L.gsz -M 12000m -Q 050:00:00
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_canopy_photosynthesis_optimize_3L.gsz -M 12000m -Q 050:00:00
