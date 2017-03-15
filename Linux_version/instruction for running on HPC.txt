@@ -34,6 +34,7 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_canopy_photosynthesis_opt
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_canopy_photosynthesis_output.gsz -M 12000m -Q 004:00:00
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Cstar_Bobeica.gsz -M 12000m -Q 120:00:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_WUE_optimize.gsz -M 12000m -Q 050:00:00
 
 Server and user name:
 set the host as : avakas.mcia.univ-bordeaux.fr
