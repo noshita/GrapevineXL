@@ -12,21 +12,7 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLCarbonAllocation.gsz -M 15000m -
 10. delete the job: qdel jobID only the number
 11. 
 
-GroIMP -i /home/jzhu/Linux_version/GrapevineXLWaterFluxFullCombination2010-8-3.gsz -M 15000m -Q 50:00:00
-
-GroIMP -i /home/jzhu/Linux_version/GrapevineXLCarbonAllocation_8_31.gsz -M 12000m -Q 150:00:00
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXLCarbonAllocation_11_11.gsz -M 12000m -Q 150:00:00
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonAllocationZhanwu_km_root.gsz -M 12000m -Q 050:00:00
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -q
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super.gsz -M 12000m -Q 075:00:00
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Vmax_zhanwu.gsz -M 12000m -Q 100:00:00
-
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_kmroot_zhanwu.gsz -M 12000m -Q 050:00:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_dilution_effect.gsz -M 12000m -Q 020:00:00
 
 Server and user name:
 set the host as : avakas.mcia.univ-bordeaux.fr
