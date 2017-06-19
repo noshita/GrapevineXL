@@ -38,7 +38,7 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_WUE_optimize.gsz -M 12000
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_WUE_optimize_output.gsz -M 12000m -Q 005:00:00
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_WUE_optimize_3L.gsz -M 12000m -Q 070:00:00
-GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_WUE_optimize_12L_output.gsz -M 12000m -Q 005:00:00
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_dilution_effect.gsz -M 12000m -Q 010:00:00
 
 Server and user name:
 set the host as : avakas.mcia.univ-bordeaux.fr
