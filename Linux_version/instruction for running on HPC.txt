@@ -18,5 +18,6 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Lpmax_
 Server and user name:
 set the host as : avakas.mcia.univ-bordeaux.fr
 port:22
-zdai100p
+
+User name: zdai100p
 Egfv1287!
