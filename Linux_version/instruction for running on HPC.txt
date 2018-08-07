@@ -27,3 +27,20 @@ port:22
 
 User name: zdai100p
 Egfv1287!
+
+expr $(qstat | wc -l) - 2
+ qstat -u zdai100p
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_final_test_jxb_cellWall.gsz -M 12000m -Q 020:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_fruitCutting_scenario_simulations.gsz -M 12000m -Q 030:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Vmax_Poni.gsz -M 12000m -Q 069:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Vmax_zhanwu.gsz -M 12000m -Q 070:00:00
+
+
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Poni_final.gsz -M 12000m -Q 003:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Zhanwu_final.gsz -M 12000m -Q 003:00:00
