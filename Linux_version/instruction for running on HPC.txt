@@ -44,3 +44,5 @@ GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Vmax_z
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Poni_final.gsz -M 12000m -Q 003:00:00
 
 GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_carbonOptimization_Zhanwu_final.gsz -M 12000m -Q 003:00:00
+
+GroIMP -i /home/zdai100p/grapevineXL/GrapevineXL_Super_blenheim_condition.gsz -M 12000m -Q 006:00:00
