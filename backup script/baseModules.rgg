@@ -1,0 +1,60 @@
+
+import static modules.*;
+import static parameters.*;
+
+static void develop()
+[
+	
+	// gemination
+	pb:PlantBase rh:RH w:WoodStock [RL s:Seed], (s.shouldGerminate(pb)) ==> pb rh r:RootSystem w [RU(90) a:Apex]
+	{ 
+		r.initiate(pb);
+		a.initiate(pb);
+		w.budBreak();
+	}
+	;
+	
+	// produce vegetative phtyomer
+	a:Apex, (a.shouldProduceVegetative() == true) ==>
+	RV(-2) i:Internode
+	[ru:RU RH(180) aa:Apex]
+	[l:Leaf]
+	RH(phyllotaxis) RL(random(-2.5,2.5)) a
+	{
+		i.initiate(a);
+		aa.initiateAxillary(a);
+		ru.setAngle(aa.getAngle());
+		l.initiate(a);
+		a.increment();
+	}
+	;
+	
+	// produce grapes (spheer only, for now)
+	a:Apex, (a.shouldProduceFruit() == true) ==> g:GrapeBerry
+	{
+		g.initiate(a);
+	}
+	;
+	
+	// produce flower
+	a:Apex, (a.shouldTerminateGeneratively() == true) ==>	;
+	
+	// shed flower/fruit
+	//f:GrapeBerry, (f.shouldFall()) ==> cut;
+	
+	//shed a leaf
+	l:Leaf, (l.shouldFall() == true) ==>> ; 
+
+	// harvest plants
+	pb:PlantBase, (pb.shouldHarvest() == true) ==>>
+	{
+		pb.harvest();
+	}
+	;
+	
+	// pruning rule
+	//itn:Internode (* (-->)+ a:Apex *), (itn.shouldCut(a)) ==>> ; 
+	
+	// ignore
+	temp ==> temp;
+]
